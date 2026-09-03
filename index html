@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knot & Bloom | Handmade Crochet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home">Knot <span>&</span> Bloom</a>
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="bag" href="#shop">♡ Shop</a>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">HANDMADE • SOFT • ONE OF A KIND</p>
+    <h1>Little knots,<br><em>big love.</em></h1>
+    <p class="intro">A cozy collection of handmade crochet pieces, thoughtfully made stitch by stitch.</p>
+    <a class="button" href="#shop">Explore the collection →</a>
+  </div>
+  <div class="hero-art">
+    <div class="yarn">🧶</div>
+    <div class="flower flower1">✿</div>
+    <div class="flower flower2">✿</div>
+    <div class="card-note">made by hand<br><strong>with love</strong></div>
+  </div>
+</section>
+
+<section id="shop" class="section">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">THE COLLECTION</p>
+      <h2>Made to make you smile</h2>
+    </div>
+    <p>Small-batch crochet treasures for everyday joy.</p>
+  </div>
+
+  <div class="products">
+    <article class="product">
+      <div class="product-img peach">🌸</div>
+      <h3>Bloom Hair Scrunchie</h3>
+      <p>Soft floral crochet scrunchie</p>
+      <strong>₹249</strong>
+      <button onclick="order('Bloom Hair Scrunchie','₹249')">Order this</button>
+    </article>
+
+    <article class="product">
+      <div class="product-img cream">👜</div>
+      <h3>Cozy Mini Tote</h3>
+      <p>Handmade everyday crochet bag</p>
+      <strong>₹699</strong>
+      <button onclick="order('Cozy Mini Tote','₹699')">Order this</button>
+    </article>
+
+    <article class="product">
+      <div class="product-img sage">🧸</div>
+      <h3>Mini Daisy Buddy</h3>
+      <p>A tiny crochet companion</p>
+      <strong>₹499</strong>
+      <button onclick="order('Mini Daisy Buddy','₹499')">Order this</button>
+    </article>
+
+    <article class="product">
+      <div class="product-img lilac">🌷</div>
+      <h3>Petal Coaster Set</h3>
+      <p>Set of four floral coasters</p>
+      <strong>₹399</strong>
+      <button onclick="order('Petal Coaster Set','₹399')">Order this</button>
+    </article>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="about-art">🧶<br><span>slow made<br>sweetly made</span></div>
+  <div>
+    <p class="eyebrow">OUR LITTLE STORY</p>
+    <h2>Every stitch has a story.</h2>
+    <p>Knot & Bloom is a cozy crochet studio creating cheerful handmade pieces for people who love thoughtful details.</p>
+    <p>Everything is made in small batches, so each piece gets the time and care it deserves.</p>
+    <a href="#contact" class="text-link">Say hello →</a>
+  </div>
+</section>
+
+<section class="custom">
+  <p class="eyebrow">MADE JUST FOR YOU</p>
+  <h2>Have something special in mind?</h2>
+  <p>Ask about custom colours, gifts and crochet creations.</p>
+  <a class="button light" href="#contact">Request a custom piece</a>
+</section>
+
+<section id="contact" class="contact section">
+  <div>
+    <p class="eyebrow">GET IN TOUCH</p>
+    <h2>Let's make something lovely.</h2>
+  </div>
+  <div class="contact-box">
+    <p>Ready to order? Send us a message with the product name and we'll help with the next steps.</p>
+    <a class="button" href="#shop">Order on WhatsApp →</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>© 2026 Knot & Bloom</span>
+  <span>Handmade with ♡</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
